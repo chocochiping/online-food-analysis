@@ -1,0 +1,44 @@
+# Online Food Order Analysis (AWS + Tableau)
+
+This project analyzes customer behavior and ordering patterns using the Online Food Dataset from Kaggle. AWS services like S3, Glue, and Athena were used for processing and querying. Tableau was used for visualization (charts are included as screenshots).
+
+## Tech Used
+- Amazon S3
+- AWS Glue
+- Amazon Athena
+- Tableau (visuals only, no workbook)
+- VS Code
+- GitHub
+
+## What I Did
+
+### 1. Data Upload (Amazon S3)
+- Uploaded Online Food dataset to S3.
+
+### 2. Data Cleaning (AWS Glue)
+- Used Glue crawler to detect schema.
+- Removed unnecessary column (col12).
+- Updated schema for consistency.
+
+### 3. Analysis (Amazon Athena)
+Queries performed:
+- Age > 20 analysis
+- Feedback: positive vs negative
+- Gender-based trends
+- Location-based ordering patterns
+- Occupation-based analysis
+- Age-group comparison
+
+### 4. Visualization (Tableau)
+Created charts (screenshots provided):
+- Feedback analysis
+- Age group comparison
+- Gender trends
+- Occupational differentiation
+
+> Tableau workbook is not included (project visualized locally). Screenshots of the charts are included instead.
+
+## Files in This Repository
+- `dataset/` → contains the raw CSV dataset
+- `screenshots_tableau/` → contains all Tableau charts as images
+- `README.md` → project documentation
